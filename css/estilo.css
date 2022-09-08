@@ -1,0 +1,31 @@
+h2{
+    color:brown;
+}
+
+h1{
+    color: yellow;
+}
+
+#txtNome{
+    background-color: crimson;
+    color: white;
+}
+
+#txtLogin{
+    background-color: crimson;
+    color: white;
+}
+
+.formatarCampoTexto {
+    background-color: crimson;
+    color: white;
+}
+
+.txtGeral {
+    color:chocolate;
+    border: 1px
+}
+
+#titForm1 {
+    color:darkgreen;
+}
