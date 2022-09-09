@@ -13,7 +13,8 @@
 
 .classe1{
     color: crimson;
-    width: 250px;
-    padding: 0;
+    width: 400px;
     font-family: 'Noto Sans SC', sans-serif;
+    font-style: oblique;
+    margin: 0 auto;
 }
