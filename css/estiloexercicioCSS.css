@@ -3,18 +3,30 @@
 }
 
 #div2{
-    background-color: #FFC0CB;
+    background-color: #c0ffda;
 
 }
 
 #div3{
-    background-color: #F08080;
+    background-color: greenyellow;
 }
 
 .classe1{
-    color: crimson;
+    color: darkgreen;
     width: 400px;
     font-family: 'Noto Sans SC', sans-serif;
     font-style: oblique;
     margin: 0 auto;
+}
+
+#h2Esportes{
+    color:white;
+    font-size: 35px;
+    background-color: #7bf3b1;
+}
+
+#h2Negocios{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
 }
