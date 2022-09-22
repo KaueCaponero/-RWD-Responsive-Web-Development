@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        .cabecalho {
+            background-color: rgb(163, 163, 255);
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+            border: solid 1px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin-bottom: 25px;
+            margin: auto;
+            border: solid 1px;
+        }
+        tfoot {
+            text-align: center;
+        }
+        .datacentralizada{
+            text-align: center;
+        }
+        tfoot > tr > td {
+            border: solid 2px;
+            border-color: blue;
+        
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead class="cabecalho">
+            <tr>
+                <td>Nome</td>
+                <td>Valor</td>
+                <td>Data de Pagamento</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alexander Gobbato</td>
+                <td>R$ 1,00</td>
+                <td class="datacentralizada">22/09/22</td> 
+            </tr>
+            <tr>
+                <td>Fulano 1</td>
+                <td>R$ 122,20</td>
+                <td class="datacentralizada">21/09/22</td> 
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
