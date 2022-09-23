@@ -1,0 +1,23 @@
+table {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    width: 20%;
+    background-color: rgb(240,248,255);
+}
+
+thead {
+    border: solid 1px black;
+    padding: 5px;
+    background-color: rgb(168, 218, 213);
+    font-weight: bold;
+}
+
+td {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: rgb(168, 218, 213);
+}
