@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando Form</title>
+    <link rel="stylesheet" href="css/exercicio-form01.css">
+</head>
+<body>
+    <form method="GET" action="cadastro.php">
+        <label for="idLogin">Login:</label>
+        <input type="text" id="idLogin" name="idLogin" class="formatarCaixaTexto"><br/>
+        <label for="idPassword">Senha:</label>
+        <input type="password" id="idPassword" name="idPassword" class="formatarCaixaTexto"><br/>
+        <label for="idIdade">Idade:</label>
+        <input type="number" id="idIdade" name="idIdade" class="formatarCaixaTexto"><br/>
+        <label for="idSexo">Sexo:</label>
+        <input type="radio" id="idSexoM" name="idSexo">Masculino
+        <input type="radio" id="idSexoF" name="idSexo">Feminino
+        <input type="radio" id="idSexoNull" name="idSexo">Não quero falar<br/>
+        <label for="idProgramacao">Linguagens:</label><br/>
+        <input type="checkbox" id="idJavaScript" name="idProgramacao">JavaScript<br/>
+        <input type="checkbox" id="idPython" name="idProgramacao">Python<br/>
+        <input type="submit" value="Enviar" id="btnEnviar" name="btnEnviar" class="formatarBtnEnviar">
+        
+    </form>    
+</body>
+</html>
