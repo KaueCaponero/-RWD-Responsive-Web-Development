@@ -1,0 +1,22 @@
+input:not([type=submit]) {
+    background-color: yellow;
+    color: red;
+}
+
+#btnEnviar {
+    border: solid 5px black;
+}
+
+.formatarCaixaTexto {
+    background-color: yellow;
+    color: red;
+}
+
+.formatarBtnEnviar {
+    border: solid 5px black;
+}
+
+form {
+    width: 20%;
+    margin: auto;
+}
