@@ -1,0 +1,69 @@
+#cabecalho {
+    background-color: #ed145b;
+    font-size: 30px;
+    font-weight: bold;
+    height: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+#corpo {
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.titulos {
+    font-size: 30px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: center;
+}
+
+thead {
+    background-color: #1e90ff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.horarios {
+    background-color: rgb(189, 185, 185);;
+}
+
+#intervalo {
+    background-color: rgb(139, 137, 137);
+}
+
+td {
+    height: 50px;
+    width: 120px;
+}
+
+form {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(209, 206, 206);
+    text-align: center;
+}
+
+.txtform {
+    margin-top: 100px;
+}
+
+button {
+    margin: 20px;
+}
+
+#rodape {
+    background-color: #ed145b;
+    text-align: center;
+    font-weight: bold;
+    height: 15px;
+    padding: 15px;
+}
