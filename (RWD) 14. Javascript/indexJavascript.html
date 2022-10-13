@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução Javascript</title>
+    <script src="intro.js"></script>
+    <script>
+        /*
+        Comentário em bloco em Javascript
+        */
+
+        //comentário em linha em Javascript
+    </script>
+</head>
+<body>
+    <label for="idNome">Nome:</label>
+    <input type="text" id="idNome"><br/>
+    Idade:<input type="text" id="idIdade"><br/>
+    <input type="button" value="Ver Nome" onclick="alert(document.getElementById('idNome').value)">
+    <input type="button" value="Ver Idade" onclick="alert(document.getElementById('idIdade').value)">
+    <input type="button" value="Ver Ambos" onclick="alert(document.getElementById('idNome').value + document.getElementById('idIdade').value)">
+    <input type="button" value="Modificar Div" onclick="preencherNome()">
+    <div id="idDiv">Kaue</div>
+</body>
+<script>
+    document.getElementById('idIdade').value = 29;
+</script>
+</html>
